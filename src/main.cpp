@@ -3311,7 +3311,10 @@ void ICACHE_RAM_ATTR setup() {
   delay(500);
 
   SPI.begin();
-  SPIFFS.begin();
+
+  // If the SPIFFS is not formatted or broken format it here. 
+  // Simplifies flashing a fresh ESP32 board
+  SPIFFS.begin(true); 
 
   #ifdef ESP32
   oled.begin(&u8g2, config.getEvseDisplayRotation(0));
