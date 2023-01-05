@@ -78,6 +78,18 @@ D1 | GPIO5 | TX
 D2 | GPIO4 | RX
 GND |  | GND
 
+##### Display
+
+Display-Pin | ESP32-Pin | Function |
+----------- | --------- | -------- |
+| VCC         | 3V3       | VCC      |
+| GND         | GND       | GND      |
+| DIN         | D23       | MOSI     |
+| CLK         | D18       | SCK      |
+| CS          | D12       | CS       |
+| DC          | D13       | DC       |
+| RST         | D33       | Reset    |
+
 ##### Button (optional)
 ESP8266-Pin | ESP8266-GPIO | ESP32-GPIO | Button
 ----------- | ----------- | ----------- | -----------
