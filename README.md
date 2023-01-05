@@ -79,16 +79,16 @@ D2 | GPIO4 | RX
 GND |  | GND
 
 ##### Button (optional)
-ESP8266-Pin | ESP8266-GPIO | Button
------------ | ----------- | -----------
-D4 | GPIO2 | Pin 1
-GND | | Pin 2
+ESP8266-Pin | ESP8266-GPIO | ESP32-GPIO | Button
+----------- | ----------- | ----------- | -----------
+D4 | GPIO2 | GPIO16 | Pin 1
+GND | | | Pin 2
 
 ##### S0 Electicity Meter (optional)*
-ESP8266-Pin | ESP8266-GPIO | electricity meter
------------ | ----------- | -----------
-D3 | GPIO0 | S0+
-GND | | S0-
+ESP8266-Pin | ESP8266-GPIO | ESP32-GPIO |electricity meter
+----------- | ------------ | ---------- | -----------
+D3 | GPIO0 | GPIO17 |S0+
+GND | | | S0-
 
 ##### LED (optional)
 ESP8266-Pin | ESP8266-GPIO | LED
